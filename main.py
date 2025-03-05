@@ -23,4 +23,4 @@ async def upload_image(ctx):
                 await ctx.send(f"Imagen {attachment.filename} guardada con exito. Disponible en: {attachment.url}")
             else:
                 await ctx.send(f"El archivo {attachment.filename} no es un archivo valido.")
-bot.run("MTM0MTkzNjk3MDA3ODYyMTc1Nw.GZGVfg.hswIFJBG6_Ol03QTuTvP1V0U80eupHUyeWHksQ")
+bot.run("token")
